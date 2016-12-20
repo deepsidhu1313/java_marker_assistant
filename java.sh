@@ -1,4 +1,4 @@
 #!/bin/bash 
 
 cd "${1}/"
-java ${2} < inputfilename
+java ${2} < ${3}
