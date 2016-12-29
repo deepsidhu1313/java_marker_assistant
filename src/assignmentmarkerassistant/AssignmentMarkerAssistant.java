@@ -42,7 +42,7 @@ public class AssignmentMarkerAssistant {
         Scanner keyboard;
         keyboard = new Scanner(System.in);
 
-        String folderpath = "/home/nika/study/marking/2140/a5/submissions/Assignment 5 Download Dec 13, 2016 909 PM"; //keyboard.nextLine().trim();
+        String folderpath = keyboard.nextLine().trim();
         File directory = new File(folderpath);
         if (!directory.exists()) {
             System.err.println("Folder Doesnot exist :" + folderpath);
